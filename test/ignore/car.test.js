@@ -38,10 +38,10 @@ describe('/First Test Collection', () => {
         });
     });
 
+});
 
 
-
-
+/*
     it('should POST a valid product', (done) => {
 
         let product = {
@@ -60,8 +60,8 @@ describe('/First Test Collection', () => {
             done();
         });
     });
-
-
+*/
+/*
     it('should verify that we have 1 products in the DB', (done) => {
         chai.request(server)
         .get('/api/car')
@@ -73,7 +73,7 @@ describe('/First Test Collection', () => {
         });
     });
 
-
+*/
 
 /*     
     it('Test default API welcome route', (done) => {
@@ -87,7 +87,7 @@ describe('/First Test Collection', () => {
         done();
         });
     }) 
-*/
+
 
 
 
@@ -99,3 +99,4 @@ describe('/First Test Collection', () => {
         expect(actualVal).to.be.equal(expectedVal);
     })
 })
+*/

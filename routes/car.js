@@ -9,7 +9,7 @@ const { verifyToken } = require("../validation");
 // CRUD Operations
 
 // Create product - post
-router.post("/", (req, res) => {
+router.post("/", verifyToken, (req, res) => {
 
     // Body, parsed as json
     let data = req.body;
@@ -18,7 +18,7 @@ router.post("/", (req, res) => {
     car.insertMany(data)
 
         // responds with the data
-        .then(data => { res.send(data); })
+        .then(data => { res.status(201).send(data); })
         .catch(err => { res.status(500).send({ message: err.message }); })
 
 });

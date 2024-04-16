@@ -55,7 +55,7 @@ describe('Product workflow tests', () => {
                             .end((err, res) => {
 
                                 // Assertsx
-                                expect(res.status).to.be.equal(200);
+                                expect(res.status).to.be.equal(201);
                                 expect(res.body).to.be.a('array');
                                 expect(res.body.length).to.be.eql(1);
 
@@ -132,7 +132,7 @@ describe('Product workflow tests', () => {
                             .end((err, res) => {
 
                                 // Asserts
-                                expect(res.status).to.be.equal(200);
+                                expect(res.status).to.be.equal(201);
                                 expect(res.body).to.be.a('array');
                                 expect(res.body.length).to.be.eql(1);
 
