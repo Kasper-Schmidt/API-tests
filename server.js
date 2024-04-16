@@ -74,7 +74,7 @@ app.use("/api/user", authRoutes);
 
 const PORT = process.env.PORT || 4000;
 // Start up server
-app.listen(PORT, function() {
+app.listen(PORT, async(req, res) => {
     console.log("Server is running on port: " + PORT);
 })
 
