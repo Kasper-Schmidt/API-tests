@@ -45,4 +45,4 @@ jobs:
           uses: johnbeynon/render-deploy-action@v0.0.8
           with:
             service-id: ${{ secrets.SERVICE_ID }}
-            api-key: rnd_${{ secrets.KANBANAPI  }}
+            api-key: rnd_${{ secrets.RENDER_API_KEY  }}
