@@ -9,7 +9,7 @@ describe('Product workflow tests', () => {
 
     it('should register + login a user, create product and VERIFY 1 in DB', (done) => {
 
-        // 1) Register new user
+        // 1) Register new user dsadsa
         let user = {
             name: "Peter Petersen",
             email: "mail54@petersen.com",
