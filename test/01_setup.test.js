@@ -4,7 +4,7 @@ const Car = require('../models/car');
 const User = require('../models/user');
 
 
-//clean up the database before and after each test
+//clean up the database before and after each testzz
 beforeEach((done) => { 
     Car.deleteMany({}, function(err) {});
     User.deleteMany({}, function(err) {});
