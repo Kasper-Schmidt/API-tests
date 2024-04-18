@@ -9,7 +9,7 @@ const { verifyToken } = require("../validation");
 // CRUD Operations
 
 // Create product - post
-router.post("/", verifyToken, (req, res) => {
+router.post("/", /*verifyToken,*/ (req, res) => {
 
     // Body, parsed as json
     let data = req.body;

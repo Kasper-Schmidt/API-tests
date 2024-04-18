@@ -21,7 +21,7 @@ components:
     car:
       brand: string
       properties:
-        id:
+        brand:
           type: string
         model:
           type: string
@@ -41,8 +41,7 @@ components:
           type: string
         password:
           type: string
-        date:
-          type: string
+      
 
 paths:
 
